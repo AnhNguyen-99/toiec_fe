@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiEndPoint: 'http://localhost:8080/api',
+  // apiEndPoint: 'http://localhost:8080/api',
+  apiEndPoint: 'https://toeic-online.herokuapp.com/api',
   pageMeta: {
     pageNumber: 0,
     pageSize: 20

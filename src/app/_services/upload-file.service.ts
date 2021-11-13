@@ -7,7 +7,8 @@ import {Observable} from 'rxjs';
 })
 export class UploadFileService {
 
-  private baseUrl = 'http://localhost:8080/api';
+  // private baseUrl = 'http://localhost:8080/api';
+  private baseUrl = 'https://toeic-online.herokuapp.com/api';
 
   constructor(private http: HttpClient) {
   }

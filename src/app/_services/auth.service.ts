@@ -4,7 +4,7 @@ import {Observable} from 'rxjs';
 import {TokenStorageService} from './token-storage.service';
 import {Router} from '@angular/router';
 
-const AUTH_API = 'http://localhost:8080/api/auth';
+const AUTH_API = 'https://toeic-online.herokuapp.com/api/auth';
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
